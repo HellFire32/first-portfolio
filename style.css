@@ -1,0 +1,43 @@
+body {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.red {
+    color: red;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.course-button {
+    text-decoration: none;
+    background-image: linear-gradient(black, red);
+    font-size: 20px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.jpg);
+    background-repeat: no-repeat;
+}
