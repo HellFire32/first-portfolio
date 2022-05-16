@@ -13,7 +13,7 @@ h1 {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 5%;
 }
@@ -62,4 +62,38 @@ h2 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.shadow {
+    box-shadow: 10px 10px 30px 15px rgba(186, 3, 3, 0.684);
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 5%;
+    padding-left: 30px;
+    border-radius: 20px;
+    padding-bottom: 6%;
+}
+
+.last-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 10%;
+}
+
+#presidency {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(0, 0, 0), red);
+    border-image-slice: 1;
+}
+
+#elizabeth {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(136, 4, 4), rgb(0, 0, 0));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 20%;
 }
